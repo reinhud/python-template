@@ -28,7 +28,7 @@ To get started with this template:
 
 1. **Clone the Repository**: Clone this repository to create a new project.
 2. **Install Dependencies**: Use Poetry to install further dependencies.
-   ```sh
+   ```
    poetry add <package-name>
     ```
    For more options please follow the [Poetry](https://python-poetry.org) documentation.
@@ -37,7 +37,7 @@ To get started with this template:
 Locally: Run your application directly from your preferred IDE or from the command line.
 **Using Docker (For Production)**: Build and run the Docker image.
 
-    ```sh
+    ```
     docker build -t your-app-name .
     docker run your-app-name
     ```
@@ -50,17 +50,17 @@ Locally: Run your application directly from your preferred IDE or from the comma
 
 - Black for Formatting:
     
-        ```sh
+        ```
         black .
         ```
 - Isort for Import Sorting:
     
-        ```sh
+        ```
         isort .
         ```
 - Flake8 for Linting:
     
-        ```sh
+        ```
         flake8 .
         ```
 

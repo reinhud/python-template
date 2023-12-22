@@ -112,4 +112,3 @@ RUN echo "Production image built successfully"
 # Command to run on startup.
 CMD ["python", "src/main.py"]    
 
-
