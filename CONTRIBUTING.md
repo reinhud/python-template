@@ -1,6 +1,6 @@
 # Contributing to Next.js App Template 🚀
 
-First off, thank you for considering contributing to our Next.js App Template! 🎉 It's people like you that make the open source community such a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+First off, thank you for considering contributing to my Python App Template! 🎉 It's people like you that make the open source community such a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## Code of Conduct 📜
 
@@ -53,10 +53,6 @@ Here's how you can make a pull request:
 - Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 - Limit the first line to 72 characters or less
 - Reference issues and pull requests liberally after the first line
-
-### JavaScript Styleguide
-
-All JavaScript must adhere to [JavaScript Standard Style](https://standardjs.com/).
 
 ### Documentation Styleguide
 
