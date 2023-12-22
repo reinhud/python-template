@@ -28,19 +28,19 @@ To get started with this template:
 
 1. **Clone the Repository**: Clone this repository to create a new project.
 2. **Install Dependencies**: Use Poetry to install further dependencies.
-   ```
-   poetry add <package-name>
-    ```
-   For more options please follow the [Poetry](https://python-poetry.org) documentation.
+```
+poetry add <package-name>
+```
+For more options please follow the [Poetry](https://python-poetry.org) documentation.
 
 ## Running the Application 🏃
 Locally: Run your application directly from your preferred IDE or from the command line.
 **Using Docker (For Production)**: Build and run the Docker image.
 
-    ```
-    docker build -t your-app-name .
-    docker run your-app-name
-    ```
+```
+docker build -t your-app-name .
+docker run your-app-name
+```
 **Using DevContainer (For Development)**:
 - Ensure you have [Visual Studio Code](https://code.visualstudio.com/) and the [Dev - Containers extension](https://code.visualstudio.com/docs/devcontainers/containers) installed.
 - Open the project folder in VS Code.
@@ -49,20 +49,19 @@ Locally: Run your application directly from your preferred IDE or from the comma
 ## Using Linting and Formatting Tools 🛠️
 
 - Black for Formatting:
-    
-        ```
-        black .
-        ```
-- Isort for Import Sorting:
-    
-        ```
-        isort .
-        ```
-- Flake8 for Linting:
-    
-        ```
-        flake8 .
-        ```
+```
+black .
+```
+
+- Isort for Import Sorting: 
+```
+isort .
+```
+
+- Flake8 for Linting:  
+```
+flake8 .
+```
 
 
 ## Contributing 🤝
