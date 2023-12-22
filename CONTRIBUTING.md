@@ -1,4 +1,4 @@
-# Contributing to Next.js App Template 🚀
+# Contributing to Python Project Template 🚀
 
 First off, thank you for considering contributing to my Python App Template! 🎉 It's people like you that make the open source community such a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
