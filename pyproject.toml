@@ -6,7 +6,6 @@ authors = ["reinhud"]
 license = "MIT"
 readme = "README.md"
 
-
 [tool.poetry.dependencies]
 python = "3.11.6"
 
