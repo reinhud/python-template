@@ -27,19 +27,24 @@ The provided Dockerfile contains multiple stages:
 To get started with this template:
 
 1. **Clone the Repository**: Clone this repository to create a new project.
-2. **Install Dependencies**: Use Poetry to install dependencies.
+2. **Install Dependencies**: Use Poetry to install further dependencies.
    ```sh
-   poetry install
+   poetry add <package-name>
     ```
+   For more options please follow the [Poetry](https://python-poetry.org) documentation.
 
 ## Running the Application 🏃
 Locally: Run your application directly from your preferred IDE or from the command line.
-Using Docker: Build and run the Docker image for a production build.
+**Using Docker (For Production)**: Build and run the Docker image.
 
     ```sh
     docker build -t your-app-name .
     docker run your-app-name
     ```
+**Using DevContainer (For Development)**:
+- Ensure you have [Visual Studio Code](https://code.visualstudio.com/) and the [Dev - Containers extension](https://code.visualstudio.com/docs/devcontainers/containers) installed.
+- Open the project folder in VS Code.
+- When prompted, reopen the folder in a DevContainer or use the command palette (`Ctrl+Shift+P`) to run the "Dev Containers: Reopen in Container" 
 
 ## Using Linting and Formatting Tools 🛠️
 
